@@ -18,3 +18,9 @@
 6. 對數函式
 7. 取近似值
 8. 取絕對值：np.abs(), np.absolute(), np.fabs()
+## D04 NumPy 陣列邏輯函式 (Logic Functions)
+1. 陣列內容
+2. 陣列型別偵測
+3. 比較
+4. 邏輯操作
+5. np.all()、np.any()
