@@ -9,3 +9,12 @@
 3. NumPy 陣列的合併與分割
 4. 迭代
 5. 搜尋與排序
+## D03 NumPy 陣列運算及數學 Universal Functions (ufunc)
+1. 四則運算
+2. sum()
+3. 次方 np.power()
+4. 平方根 np.sqrt()
+5. 歐拉數 (Euler's number) 及指數函式 np.exp()
+6. 對數函式
+7. 取近似值
+8. 取絕對值：np.abs(), np.absolute(), np.fabs()
