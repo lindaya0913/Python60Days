@@ -30,3 +30,7 @@
 3. 相關性
 4. Histogram
 5. digitize()
+## D06 NumPy I/O
+1. numpy.save()、numpy.savez()、numpy.load()
+2. savetxt() 與 loadtxt()
+3. genfromtxt()
