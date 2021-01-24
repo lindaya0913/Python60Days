@@ -24,3 +24,9 @@
 3. 比較
 4. 邏輯操作
 5. np.all()、np.any()
+## D05 NumPy 統計函式 Universal Functions (ufunc)
+1. 順序統計量 (Order Statistics)
+2. 平均數與變異數
+3. 相關性
+4. Histogram
+5. digitize()
