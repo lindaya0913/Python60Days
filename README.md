@@ -34,7 +34,7 @@
 1. numpy.save()、numpy.savez()、numpy.load()
 2. savetxt() 與 loadtxt()
 3. genfromtxt()
-## 07 NumPy 的矩陣函式與線性代數應用
+## D07 NumPy 的矩陣函式與線性代數應用
 1. 矩陣乘積
 2. 矩陣操作
 3. 特殊矩陣
