@@ -39,3 +39,7 @@
 2. 矩陣操作
 3. 特殊矩陣
 4. 矩陣分解 (Matrix Decomposition)
+## D08 NumPy 結構化陣列 (Structured Arrays)
+1. 資料型別 (dtype)
+2. 結構化陣列 (Structured Arrays)
+3. RecordArray：numpy.recarray()
