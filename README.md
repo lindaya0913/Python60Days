@@ -43,3 +43,8 @@
 1. 資料型別 (dtype)
 2. 結構化陣列 (Structured Arrays)
 3. RecordArray：numpy.recarray()
+## D09 使用 Pandas 讀寫各種常用的檔案格式
+1. 讀寫csv
+2. 讀寫excel
+3. 讀寫json
+4. 讀寫SQL資料庫
