@@ -44,7 +44,12 @@
 2. 結構化陣列 (Structured Arrays)
 3. RecordArray：numpy.recarray()
 ## D09 使用 Pandas 讀寫各種常用的檔案格式
-1. 讀寫csv
-2. 讀寫excel
-3. 讀寫json
-4. 讀寫SQL資料庫
+1. 讀寫 csv
+2. 讀寫 excel
+3. 讀寫 json
+4. 讀寫 SQL 資料庫
+## D10 Pandas 資料的索引、操作、選擇、過濾、合併與排序
+1. 索引
+2. 操作資料
+3. 資料過濾、選擇
+4. 合併資料
