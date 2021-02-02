@@ -66,3 +66,8 @@
 1. 在資料中的索引轉欄位、欄位轉索引
 2. 欄位名稱轉為欄位值
 3. 重新組織資料
+## D15 Pandas Split-Apply-Combine Strategy
+1. Groupby 可以同時針對多個欄位做 Group，並在 Group 中做運算
+2. Split：將大的數據集拆成可獨立計算的小數據集
+3. Apply：獨立計算各個小數據集
+4. Combine：將小數據集運算結果合併
