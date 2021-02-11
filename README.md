@@ -105,3 +105,9 @@
 2. 不同於 Matplotlib 和 Seaborn 等 Python 可視化領域的流行同行，Bokeh 使用 HTML 和 JavaScript 渲染其圖形。這使其非常適合構建基於Web的儀表板和應用程序。但是，它是用於探索和理解數據或為項目或報告創建漂亮的自定義圖表的功能同樣強大的工具。
 3. 提供了一些預先建置好的圖表供我們使用，其中幾個範例： bokeh.charts.Bar — 製作長條圖 bokeh.charts.BoxPlot — 製作盒鬚圖 bokeh.charts.HeatMap — 製作熱圖 bokeh.charts.Donut — 製作甜甜圈圖。
 4. 為可視化添加交互姓 --- CustomJS/Render
+## D24 Basemap 進行地理資訊繪圖
+1. Basemap 工具，它是 mpl_toolkits 包中的一個專門用於構建地理信息數據可視化的擴展庫。Basemap 工具在地理信息讀寫、坐標映射、空間坐標轉化與投影等方面做的要比 geopandas 更加成熟，它可以使用常規的地圖素材數據源（shp）作為底圖進行疊加繪圖，效果與精度控制比較方便。
+2. 投影 + 經緯度，底圖包括 GSSH(現在為 GSHHG)海岸線數據集，以及來自 GMT 的河流、州和國家邊界數據集。這些數據集可用於以多種不同解析度在地圖上繪製海岸線、河流和政治邊界圖像可以用作地圖背景，而不是繪製海岸線和政治邊界。
+3. Basemap 類的 resolution 參數設置解析度級別：
+- 'c'(原始)，'l'(低)，'i'(中)，'h'(高)，'f'(完整)或None(如果沒有使用邊界)。 這個選項很重要，在全域地圖上設置高解析度邊界可能非常慢。
+- 我們可以從放大到特定區域，這裡的參數是：llcrnrlat – 左下角的緯度，llcrnrlon – 左下角的經度，urcrnrlat – 右上角的緯度，urcrnrlon – 右上角的經度。可通過 drawmeridians()和 drawparallels()繪製經線和緯線。
