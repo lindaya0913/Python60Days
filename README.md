@@ -122,3 +122,10 @@
 ## D27 用機率分布描述亂中有序的世界－離散型分配 (1)
 1. 生活中常見的離散分配的意義與性質，包含離散均勻分配(Discrete Uniform Distribution)、伯努利分配(Bernoulli Distribution)、二項分配(Binomial Distribution)。
 2. 運用 python 語法了解各分配的特性與應用 pmf、cdf、rvs 和 stats
+## D28 用機率分布描述亂中有序的世界－離散型分配 (2)
+1. 生活中常見的五種離散分配
+- 離散均勻分配
+- 伯努利分配:只有兩種可能結果（成功與失敗）的單次隨機試驗
+- 二項分配:在一系列獨立同分布的伯努利試驗中，其 n 次結果總和
+- 負二項分配(Negative Binomial Distribution):在一系列獨立同分布的伯努利試驗中，X 為成功次數到達指定次數（記為 𝑘 ）時，需要試驗的次數的機率分布
+- 超幾何分配(Hypergeometric Distribution):由有限個物件中抽出n個物件，成功抽出指定種類的物件的個數 (不歸還(without replacement)），若 n=1，超幾何分布還原為伯努力分布（bermulli(p)）
