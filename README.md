@@ -119,3 +119,6 @@
 1. 拿到資料後，要先判斷：母體 vs 樣本
 2. 挑選適當統計量，描述出資料的輪廓
 3. 敘述統計值，可以快速知道資料的特徵，進行簡單的比較，但只是現象，不是真相。
+## D27 用機率分布描述亂中有序的世界－離散型分配 (1)
+1. 生活中常見的離散分配的意義與性質，包含離散均勻分配(Discrete Uniform Distribution)、伯努利分配(Bernoulli Distribution)、二項分配(Binomial Distribution)。
+2. 運用 python 語法了解各分配的特性與應用 pmf、cdf、rvs 和 stats
