@@ -129,3 +129,7 @@
 - 二項分配:在一系列獨立同分布的伯努利試驗中，其 n 次結果總和
 - 負二項分配(Negative Binomial Distribution):在一系列獨立同分布的伯努利試驗中，X 為成功次數到達指定次數（記為 𝑘 ）時，需要試驗的次數的機率分布
 - 超幾何分配(Hypergeometric Distribution):由有限個物件中抽出n個物件，成功抽出指定種類的物件的個數 (不歸還(without replacement)），若 n=1，超幾何分布還原為伯努力分布（bermulli(p)）
+## D29 用機率分佈描述亂中有序的世界－連續型分配
+1. 生活中常見的連續分配的意義與性質，包含連續均勻分配(Uniform Distribution)和自然界常見的常態分配(Normal Distribution)。
+2. 用模擬學習中央極限定理，了解許多分配當收集的樣本數量夠多時，樣本平均(X̄n) 的抽樣分配會趨近常態分配。
+3. 運用 python 語法了解各連續分配的特性與應用 pdf、cdf、rvs 和 stats
