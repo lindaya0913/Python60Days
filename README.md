@@ -189,3 +189,15 @@
 - Step2：隨機取幾個資料點，當作遺失值
 - Step3：以 step2 產生的遺失值進行補值
 - Step4：計算 MSE 看補值的效果
+## D38 探索性資料分析(EDA)_探討變數之間的關係
+掌握不同變數類型間的關係，以數值的方式挖掘下列三種資料型態的關係
+1. 連續 vs 連續：Pearson 相關係數
+- stats.pearsonr 計算相關性
+2. 離散 vs 連續：Cramer's V 運用卡方檢定的結果來運算出一個可以估算離散型變數的相關性的指標
+- Step1：用交叉列連表(contingency table)整理資料
+- Step2：計算資料自由度 df
+- Step3：運用 researchpy 套件，計算出 Cramer's V 係數
+3. 離散 vs 離散：描述一個離散型變數和連續型變數的相關性，η2 是透過變異數分析的概念
+- Step1：取出要比較的資料
+- Step2：運用 pg.anova 計算三種變異數
+- Step3：變異數換算得到 Eta Squared (η2)
